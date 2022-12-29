@@ -4,7 +4,10 @@ module.exports = {
   makers: [
     {
       name: '@electron-forge/maker-squirrel',
-      config: {},
+      config: {
+        authors: 'Show My Game',
+        description: 'An app for screenshot of my game'
+      },
     },
     {
       name: '@electron-forge/maker-zip',
